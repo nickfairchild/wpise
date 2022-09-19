@@ -9,8 +9,10 @@
     "require": {
         "php": "^8.0",
         "illuminate/container": "^9.30",
+        "illuminate/filesystem": "^9.30",
         "illuminate/support": "^9.30",
-        "symfony/console": "^6.1"
+        "symfony/console": "^6.0",
+        "symfony/yaml": "^6.0"
     },
     "bin": [
         "wpise"
