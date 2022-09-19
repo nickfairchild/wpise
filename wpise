@@ -1,0 +1,18 @@
+#!/usr/bin/env php
+<?php
+
+use Illuminate\Container\Container;
+use Nickfairchild\Wpise\Commands;
+use Symfony\Component\Console\Application;
+
+if (file_exists(__DIR__.'/../../autoload.php')) {
+    require __DIR__.'/../../autoload.php';
+} else {
+    require __DIR__.'/vendor/autoload.php';
+}
+
+Container::setInstance($container = new Container);
+
+$app = new Application('Wpise', '0.1');
+
+$app->run();

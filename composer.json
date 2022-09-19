@@ -1,0 +1,29 @@
+{
+    "name": "nickfairchild/wpise",
+    "authors": [
+        {
+            "name": "Nick Fairchild",
+            "email": "nick.fairchild@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/container": "^9.30",
+        "illuminate/support": "^9.30",
+        "symfony/console": "^6.1"
+    },
+    "bin": [
+        "wpise"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nickfairchild\\Wpise\\": "src/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
