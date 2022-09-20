@@ -37,10 +37,10 @@ class Manifest
 //            'ip' => '',
 //        ]);
 
-        $environments['staging'] = array_filter([
-            'url' => $project['name'].'',
-            'ip' => '',
-        ]);
+//        $environments['staging'] = array_filter([
+//            'url' => $project['name'].'',
+//            'ip' => '',
+//        ]);
 
         $environments['local'] = array_filter([
             'url' => $project['name'].'.test',
