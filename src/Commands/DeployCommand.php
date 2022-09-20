@@ -7,8 +7,6 @@ use Symfony\Component\Console\Input\InputOption;
 
 class DeployCommand extends Command
 {
-    use DisplaysDeploymentProgress;
-
     protected function configure()
     {
         $this
